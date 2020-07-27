@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>La Liga</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#5c6bc0">
+</head>
+
+<body>
+
+    <div class="navbar-fixed">
+        <nav class="indigo lighten-1" role="navigation">
+          <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo nav" id="logo-container">
+              <i
+                class="fa fa-futbol-o hide-on-med-and-down"
+                aria-hidden="true"
+              ></i>
+              La Liga
+            </a>
+            <a href="#" class="sidenav-trigger" data-target="nav-mobile"
+              >&#9776;</a
+            >
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+          </div>
+        </nav>
+      </div>
+    
+    
+
+    
+    <div class="container" id="body-content" style="margin-top: 30px;"></div>
+    <div class="center" style="margin-top: 15px;">
+        <div class="preloader-wrapper big active" id="progress">
+            <div class="spinner-layer spinner-blue-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red" id="btnLove">
+            <i class="large material-icons">star_border</i>
+        </a>
+    </div>
+
+    
+    <script src="/js/materialize.min.js"></script>
+    <script src="/js/detailClub.js" type="module"></script>
+    <script src="/js/idb.js"></script>
+             
+</body>
+
+</html>
