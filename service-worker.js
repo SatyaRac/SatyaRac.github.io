@@ -42,7 +42,11 @@ if (workbox) {
     { url: "/assets/icons/maskable_icon_(5).png", revision: "1" },
     { url: "/assets/icons/maskable_icon_(6).png", revision: "1" },
     { url: "/assets/icons/maskable_icon_(7).png", revision: "1" },
-  ]);
+  ], {
+  ignoreUrlParametersMatching: [/.*/]
+  }); 
+
+
 
   workbox.routing.registerRoute(
     new RegExp('https://api.football-data.org/v2/'),
