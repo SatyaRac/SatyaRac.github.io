@@ -50,7 +50,7 @@ function showFavClubById(data) {
                      )}" alt="club">
                  </div>
                  <div class="card-content">
-                     <h5 class="purple-text center-align">${data.name}</h5>
+                     <h5 class="purple-text center-align ">${data.name}</h5>
                      <hr class="solid"></hr>
                      <h6 class="center-align">Stadium : ${data.venue}</h6>
                      <hr class="solid"></hr>
@@ -73,7 +73,7 @@ function showFavClubById(data) {
          <div class="row">
              <div class="card">
              <table class="striped centered responsive-table" style="margin-top: 30px;">
-                 <thead class="purple darken-4 white-text">
+                 <thead class="indigo lighten-1 white-text">
                      <tr>
                          <th>Name</th>
                          <th>Position</th>
